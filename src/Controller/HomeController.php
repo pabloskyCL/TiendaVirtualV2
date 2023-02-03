@@ -12,6 +12,6 @@ class HomeController extends AbstractController
      */
     public function homePage()
     {
-        return $this->render('index.html.twig',['message'=>"Hola Mundo"]);
+        return $this->render('index.html.twig', ['message' => 'Hola Mundo']);
     }
 }
